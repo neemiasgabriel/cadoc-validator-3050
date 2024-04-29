@@ -6,7 +6,7 @@ import lombok.Getter;
 import javax.xml.stream.events.XMLEvent;
 
 @Getter
-public class CrdPesConApoINSS extends CrdLivrePF {
+public class CrdPesConApoINSS extends CrdPes {
   public CrdPesConApoINSS(final XMLEvent event, final Pre pre) {
     super(event, pre);
   }

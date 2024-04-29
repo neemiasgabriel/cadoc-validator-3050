@@ -12,7 +12,7 @@ import static com.picpay.core.enums.TokenType3050.TX_MED_JUROS;
 import static com.picpay.core.enums.TokenType3050.VLR_CONCESSOES;
 
 @Getter
-public abstract class CrdLivrePF extends Tag {
+public abstract class CrdPes extends Tag {
   protected String txMedJuros;
   protected String txMedEncFiscais;
   protected String txMedEncOperacionais;
@@ -22,7 +22,7 @@ public abstract class CrdLivrePF extends Tag {
 
   protected Pre pre;
 
-  public CrdLivrePF(final XMLEvent event, final Pre pre) {
+  public CrdPes(final XMLEvent event, final Pre pre) {
     this.event = event;
     this.pre = pre;
 

@@ -1,7 +1,7 @@
 package com.picpay.core.parser.visitor;
 
 import com.picpay.core.domain.CrdLivre;
-import com.picpay.core.domain.CrdLivrePF;
+import com.picpay.core.domain.CrdPes;
 import com.picpay.core.domain.Diario;
 import com.picpay.core.domain.DocTxb;
 import com.picpay.core.domain.PesFisica;
@@ -59,7 +59,7 @@ public class TagVisitorImpl implements TagVisitor {
   }
 
   @Override
-  public void visitCrdLivrePf(final CrdLivrePF crdLivrePf) {
-    crdLivrePfValidator.accept(crdLivrePf);
+  public void visitCrdLivrePf(final CrdPes crdPes) {
+    crdLivrePfValidator.accept(crdPes);
   }
 }

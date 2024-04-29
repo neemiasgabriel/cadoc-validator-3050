@@ -1,7 +1,7 @@
 package com.picpay.core.parser.visitor;
 
 import com.picpay.core.domain.CrdLivre;
-import com.picpay.core.domain.CrdLivrePF;
+import com.picpay.core.domain.CrdPes;
 import com.picpay.core.domain.Diario;
 import com.picpay.core.domain.DocTxb;
 import com.picpay.core.domain.PesFisica;
@@ -15,5 +15,5 @@ public interface TagVisitor {
   void visitCrdLivre(final CrdLivre crdLivre);
   void visitPesFisica(final PesFisica pesFisica);
   void visitPre(final Pre pre);
-  void visitCrdLivrePf(final CrdLivrePF crdLivrePf);
+  void visitCrdLivrePf(final CrdPes crdPes);
 }
