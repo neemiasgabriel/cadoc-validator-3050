@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class CrdPesNaoConVinComposicaoValidator implements Validator<CrdPesNaoConVinComposicao> {
   @Override
-  public void accept(CrdPesNaoConVinComposicao tag) {
+  public void accept(final CrdPesNaoConVinComposicao tag) {
     validateTxMedJuros(tag.getTxMedJuros());
     validateTxMedEncFiscais(tag.getTxMedEncFiscais());
     validateTxMedEncOperacionais(tag.getTxMedEncOperacionais());

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 public class CrdPesConTraSetPublicoValidator implements Validator<CrdPesConTraSetPublico> {
   @Override
-  public void accept(CrdPesConTraSetPublico tag) {
+  public void accept(final CrdPesConTraSetPublico tag) {
     validateTxMedJuros(tag.getTxMedJuros());
     validateTxMedEncFiscais(tag.getTxMedEncFiscais());
     validateTxMedEncOperacionais(tag.getTxMedEncOperacionais());
