@@ -6,13 +6,13 @@ import lombok.Getter;
 import javax.xml.stream.events.XMLEvent;
 
 @Getter
-public class CrdPesNaoConVinComposicao extends CredPF {
+public class CrdPesNaoConVinComposicao extends CrdLivrePF {
   public CrdPesNaoConVinComposicao(final XMLEvent event, final Pre pre) {
     super(event, pre);
   }
 
   @Override
   public void accept(final TagVisitor visitor) {
-    visitor.visitCrdPesNaoConVinComposicao(this);
+    visitor.visitCrdLivrePf(this);
   }
 }

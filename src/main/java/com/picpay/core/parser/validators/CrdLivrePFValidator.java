@@ -1,15 +1,13 @@
 package com.picpay.core.parser.validators;
 
-import com.picpay.core.domain.CrdPesConTraSetPublico;
+import com.picpay.core.domain.CrdLivrePF;
 import com.picpay.core.exceptions.ValidationException;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
 @Component
-@RequiredArgsConstructor
-public class CrdPesConTraSetPublicoValidator implements Validator<CrdPesConTraSetPublico> {
+public class CrdLivrePFValidator implements Validator<CrdLivrePF> {
   @Override
-  public void accept(final CrdPesConTraSetPublico tag) {
+  public void accept(final CrdLivrePF tag) {
     validateTxMedJuros(tag.getTxMedJuros());
     validateTxMedEncFiscais(tag.getTxMedEncFiscais());
     validateTxMedEncOperacionais(tag.getTxMedEncOperacionais());
