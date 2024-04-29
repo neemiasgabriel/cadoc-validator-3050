@@ -4,7 +4,7 @@ import com.picpay.core.domain.DocTxb;
 
 public class DocTxbValidator implements Validator<DocTxb> {
   @Override
-  public void accept(final DocTxb event) {
+  public void accept(final DocTxb tag) {
 
   }
 }

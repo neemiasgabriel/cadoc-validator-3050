@@ -1,9 +1,11 @@
 package com.picpay.core.domain;
 
 import com.picpay.core.parser.visitor.TagVisitor;
+import lombok.Getter;
 
 import javax.xml.stream.events.XMLEvent;
 
+@Getter
 public class Diario extends Tag {
   private Referencia referencia;
 

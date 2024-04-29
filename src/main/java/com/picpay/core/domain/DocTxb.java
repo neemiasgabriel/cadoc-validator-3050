@@ -1,6 +1,7 @@
 package com.picpay.core.domain;
 
 import com.picpay.core.parser.visitor.TagVisitor;
+import lombok.Getter;
 
 import javax.xml.stream.events.XMLEvent;
 
@@ -13,6 +14,7 @@ import static com.picpay.core.enums.TokenType3050.IND_REMESSA;
 import static com.picpay.core.enums.TokenType3050.NM_CONTATO;
 import static com.picpay.core.enums.TokenType3050.TEL_CONTATO;
 
+@Getter
 public class DocTxb extends Tag {
   private String cnpjInstituicao;
   private String dataBase;
