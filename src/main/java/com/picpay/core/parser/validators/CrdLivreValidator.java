@@ -9,7 +9,7 @@ public class CrdLivreValidator implements Validator<CrdLivre> {
   @Override
   public void accept(final CrdLivre tag) {
     if (tag.getDiario() == null) {
-      throw new ValidationException("referencia is required");
+      throw new ValidationException("Diário não pode estar nulo. Existe uma falha de hierarquia no arquivo.");
     }
   }
 }
