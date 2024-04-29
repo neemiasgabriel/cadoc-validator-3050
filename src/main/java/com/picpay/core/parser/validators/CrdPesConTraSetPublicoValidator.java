@@ -15,7 +15,7 @@ public class CrdPesConTraSetPublicoValidator implements Validator<CrdPesConTraSe
     validateTxMedEncOperacionais(tag.getTxMedEncOperacionais());
     validateVlrConcessoes(tag.getVlrConcessoes());
     validatePrzDecMedConcessoes(tag.getPrzDecMedConcessoes());
-    validateSldCardAtiva(tag.getSldCardAtiva());
+    validateSldCarAtiva(tag.getSldCarAtiva());
   }
 
   private void validateTxMedJuros(final String txMedJuros) {
@@ -42,7 +42,7 @@ public class CrdPesConTraSetPublicoValidator implements Validator<CrdPesConTraSe
     }
   }
 
-  private void validateSldCardAtiva(final String sldCardAtiva) {
+  private void validateSldCarAtiva(final String sldCardAtiva) {
     if (sldCardAtiva == null) {
       throw new ValidationException("sldCardAtiva is required");
     }

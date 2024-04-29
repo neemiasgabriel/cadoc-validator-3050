@@ -18,7 +18,7 @@ public abstract class CredPF extends Tag {
   protected String txMedEncOperacionais;
   protected String vlrConcessoes;
   protected String przDecMedConcessoes;
-  protected String sldCardAtiva;
+  protected String sldCarAtiva;
 
   protected Pre pre;
 
@@ -31,6 +31,6 @@ public abstract class CredPF extends Tag {
     this.txMedEncOperacionais = getAttribute(TX_MED_ENC_OPERACIONAIS);
     this.vlrConcessoes = getAttribute(VLR_CONCESSOES);
     this.przDecMedConcessoes = getAttribute(PRZ_DEC_MED_CONCESSOES);
-    this.sldCardAtiva = getAttribute(SLD_CAR_ATIVA);
+    this.sldCarAtiva = getAttribute(SLD_CAR_ATIVA);
   }
 }
