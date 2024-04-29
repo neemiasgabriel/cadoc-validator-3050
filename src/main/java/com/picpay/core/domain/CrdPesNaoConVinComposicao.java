@@ -10,7 +10,7 @@ public class CrdPesNaoConVinComposicao extends CredPF {
   }
 
   @Override
-  public void accept(TagVisitor visitor) {
+  public void accept(final TagVisitor visitor) {
     visitor.visitCrdPesNaoConVinComposicao(this);
   }
 }

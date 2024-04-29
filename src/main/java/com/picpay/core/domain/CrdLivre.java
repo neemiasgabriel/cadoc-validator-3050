@@ -15,7 +15,7 @@ public class CrdLivre extends Tag {
   }
 
   @Override
-  public void accept(TagVisitor visitor) {
+  public void accept(final TagVisitor visitor) {
     visitor.visitCrdLivre(this);
   }
 }

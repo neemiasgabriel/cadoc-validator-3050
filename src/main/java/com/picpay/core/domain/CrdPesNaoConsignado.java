@@ -12,7 +12,7 @@ public class CrdPesNaoConsignado extends CredPF {
   }
 
   @Override
-  public void accept(TagVisitor visitor) {
+  public void accept(final TagVisitor visitor) {
     visitor.visitCrdPesNaoConsignado(this);
   }
 }
