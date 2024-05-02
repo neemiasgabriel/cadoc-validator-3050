@@ -7,7 +7,7 @@ import com.picpay.core.domain.DocTxb;
 import com.picpay.core.domain.PesFisica;
 import com.picpay.core.domain.Pre;
 import com.picpay.core.domain.Referencia;
-import com.picpay.core.parser.validators.CrdLivrePFValidator;
+import com.picpay.core.parser.validators.CrdPesValidator;
 import com.picpay.core.parser.validators.CrdLivreValidator;
 import com.picpay.core.parser.validators.DiarioValidator;
 import com.picpay.core.parser.validators.DocTxbValidator;
@@ -26,7 +26,7 @@ public class TagVisitorImpl implements TagVisitor {
   private final CrdLivreValidator crdLivreValidator;
   private final PesFisicaValidator pesFisicaValidator;
   private final PreValidator preValidator;
-  private final CrdLivrePFValidator crdLivrePfValidator;
+  private final CrdPesValidator crdPesValidator;
 
   @Override
   public void visitDocTxb(final DocTxb docTxb) {
@@ -59,7 +59,7 @@ public class TagVisitorImpl implements TagVisitor {
   }
 
   @Override
-  public void visitCrdLivrePf(final CrdPes crdPes) {
-    crdLivrePfValidator.accept(crdPes);
+  public void visitCrdPes(final CrdPes crdPes) {
+    crdPesValidator.accept(crdPes);
   }
 }

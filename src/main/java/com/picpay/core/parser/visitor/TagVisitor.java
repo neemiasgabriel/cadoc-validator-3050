@@ -15,5 +15,5 @@ public interface TagVisitor {
   void visitCrdLivre(final CrdLivre crdLivre);
   void visitPesFisica(final PesFisica pesFisica);
   void visitPre(final Pre pre);
-  void visitCrdLivrePf(final CrdPes crdPes);
+  void visitCrdPes(final CrdPes crdPes);
 }

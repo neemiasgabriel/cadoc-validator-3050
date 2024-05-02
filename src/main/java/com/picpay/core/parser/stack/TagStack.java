@@ -2,16 +2,19 @@ package com.picpay.core.parser.stack;
 
 import com.picpay.core.domain.Tag;
 import com.picpay.core.exceptions.ParserException;
+import com.picpay.core.log.SimpleLog;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+import static com.picpay.core.enums.LogType.INFO;
+
 
 @Slf4j
 @Component
-public final class TagStack implements LifoStack {
+public final class TagStack implements LifoStack, SimpleLog {
   private final Deque<Tag> deque = new ArrayDeque<>();
 
   @Override
@@ -23,12 +26,11 @@ public final class TagStack implements LifoStack {
   public Tag pop(final String expectedTag) {
     final var poped = deque.pop();
 
-    if (!poped.tagName().equals(expectedTag)) {
+    if (!poped.tagName().equalsIgnoreCase(expectedTag)) {
       final var message = unexpectedTag(expectedTag);
-
       throw new ParserException(message);
     } else {
-//      endTagMessage(poped.tagName());
+      endTagMessage(poped.tagName());
     }
 
     return poped;
@@ -36,7 +38,7 @@ public final class TagStack implements LifoStack {
 
   @Override
   public void push(final Tag tag) {
-//    beginTagMessage(tag.tagName());
+    beginTagMessage(tag.tagName());
     deque.push(tag);
   }
 
@@ -44,11 +46,11 @@ public final class TagStack implements LifoStack {
     return "Tag " + tagName + " não esperada.";
   }
 
-//  private void beginTagMessage(final String tagName) {
-//    log.info(log(INFO, "Tag Aberta: " + tagName));
-//  }
-//
-//  private void endTagMessage(final String tagName) {
-//    log.info(log(INFO, "Tag Fechada: " + tagName));
-//  }
+  private void beginTagMessage(final String tagName) {
+    log.info(log(INFO, "Tag Aberta: " + tagName));
+  }
+
+  private void endTagMessage(final String tagName) {
+    log.info(log(INFO, "Tag Fechada: " + tagName));
+  }
 }

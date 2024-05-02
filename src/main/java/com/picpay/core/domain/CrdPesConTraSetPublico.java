@@ -13,6 +13,6 @@ public class CrdPesConTraSetPublico extends CrdPes {
 
   @Override
   public void accept(final TagVisitor visitor) {
-    visitor.visitCrdLivrePf(this);
+    visitor.visitCrdPes(this);
   }
 }

@@ -9,7 +9,7 @@ public class PreValidator implements Validator<Pre> {
   @Override
   public void accept(final Pre tag) {
     if (tag.getPesFisica() == null) {
-      throw new ValidationException("pesFisica is required");
+      throw new ValidationException("A tag pesFisica era esperada antes da tag pre. Houve uma falha de hierarquia no arquivo.");
     }
   }
 }

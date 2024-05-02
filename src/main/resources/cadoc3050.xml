@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocTXB cnpjInstituicao="09516419" dataBase="2024-04-19" indRemessa="I" nmContato="EDUARDO CHEDID SIMÕES" telContato="">
+  <referencia dataRef="2024-04-15">
+    <diario>
+      <crdLivre>
+        <pesFisica>
+          <pre>
+            <crdPesNaoConsignado txMedJuros="206.89" txMedEncFiscais="0.63" txMedEncOperacionais="0.27" vlrConcessoes="23377" przDecMedConcessoes="1228" sldCarAtiva="1770990" />
+            <crdPesNaoConVinComposicao txMedJuros="169.62" txMedEncFiscais="0.06" txMedEncOperacionais="0.00" vlrConcessoes="1037" przDecMedConcessoes="532" sldCarAtiva="55569" />
+            <crdPesConTraSetPublico txMedJuros="20.51" txMedEncFiscais="0.60" txMedEncOperacionais="0.00" vlrConcessoes="108" przDecMedConcessoes="1827" sldCarAtiva="9483" />
+            <crdPesConApoINSS txMedJuros="21.72" txMedEncFiscais="0.53" txMedEncOperacionais="0.00" vlrConcessoes="1217" przDecMedConcessoes="2196" sldCarAtiva="352892" />
+          </pre>
+        </pesFisica>
+      </crdLivre>
+    </diario>
+  </referencia>
+  <referencia dataRef="2024-04-16">
+    <diario>
+      <crdLivre>
+        <pesFisica>
+          <pre>
+            <crdPesNaoConsignado txMedJuros="174.36" txMedEncFiscais="0.57" txMedEncOperacionais="0.30" vlrConcessoes="9324" przDecMedConcessoes="1397" sldCarAtiva="1779367" />
+            <crdPesNaoConVinComposicao txMedJuros="116.81" txMedEncFiscais="0.04" txMedEncOperacionais="0.00" vlrConcessoes="683" przDecMedConcessoes="849" sldCarAtiva="56246" />
+            <crdPesConTraSetPublico txMedJuros="21.67" txMedEncFiscais="0.48" txMedEncOperacionais="0.00" vlrConcessoes="134" przDecMedConcessoes="2410" sldCarAtiva="9618" />
+            <crdPesConApoINSS txMedJuros="21.41" txMedEncFiscais="0.55" txMedEncOperacionais="0.00" vlrConcessoes="301" przDecMedConcessoes="2053" sldCarAtiva="353370" />
+          </pre>
+        </pesFisica>
+      </crdLivre>
+    </diario>
+  </referencia>
+  <referencia dataRef="2024-04-17">
+    <diario>
+      <crdLivre>
+        <pesFisica>
+          <pre>
+            <crdPesNaoConsignado txMedJuros="165.42" txMedEncFiscais="0.55" txMedEncOperacionais="0.30" vlrConcessoes="8616" przDecMedConcessoes="1472" sldCarAtiva="1787090" />
+            <crdPesNaoConVinComposicao txMedJuros="129.94" txMedEncFiscais="0.04" txMedEncOperacionais="0.00" vlrConcessoes="652" przDecMedConcessoes="771" sldCarAtiva="56870" />
+            <crdPesConTraSetPublico txMedJuros="21.06" txMedEncFiscais="0.61" txMedEncOperacionais="0.00" vlrConcessoes="121" przDecMedConcessoes="1862" sldCarAtiva="9743" />
+            <crdPesConApoINSS txMedJuros="21.63" txMedEncFiscais="0.55" txMedEncOperacionais="0.00" vlrConcessoes="614" przDecMedConcessoes="2095" sldCarAtiva="354155" />
+          </pre>
+        </pesFisica>
+      </crdLivre>
+    </diario>
+  </referencia>
+  <referencia dataRef="2024-04-18">
+    <diario>
+      <crdLivre>
+        <pesFisica>
+          <pre>
+            <crdPesNaoConsignado txMedJuros="166.97" txMedEncFiscais="0.57" txMedEncOperacionais="0.28" vlrConcessoes="8904" przDecMedConcessoes="1443" sldCarAtiva="1794794" />
+            <crdPesNaoConVinComposicao txMedJuros="155.94" txMedEncFiscais="0.04" txMedEncOperacionais="0.00" vlrConcessoes="500" przDecMedConcessoes="559" sldCarAtiva="57351" />
+            <crdPesConTraSetPublico txMedJuros="21.43" txMedEncFiscais="0.45" txMedEncOperacionais="0.00" vlrConcessoes="118" przDecMedConcessoes="2536" sldCarAtiva="9867" />
+            <crdPesConApoINSS txMedJuros="21.87" txMedEncFiscais="0.50" txMedEncOperacionais="0.00" vlrConcessoes="548" przDecMedConcessoes="2294" sldCarAtiva="354894" />
+          </pre>
+        </pesFisica>
+      </crdLivre>
+    </diario>
+  </referencia>
+  <referencia dataRef="2024-04-19">
+    <diario>
+      <crdLivre>
+        <pesFisica>
+          <pre>
+            <crdPesNaoConsignado txMedJuros="203.60" txMedEncFiscais="0.58" txMedEncOperacionais="0.26" vlrConcessoes="10483" przDecMedConcessoes="1330" sldCarAtiva="1808735" />
+            <crdPesNaoConVinComposicao txMedJuros="124.60" txMedEncFiscais="0.07" txMedEncOperacionais="0.00" vlrConcessoes="713" przDecMedConcessoes="706" sldCarAtiva="58296" />
+            <crdPesConTraSetPublico txMedJuros="21.63" txMedEncFiscais="0.45" txMedEncOperacionais="0.00" vlrConcessoes="155" przDecMedConcessoes="2546" sldCarAtiva="10107" />
+            <crdPesConApoINSS txMedJuros="21.69" txMedEncFiscais="0.53" txMedEncOperacionais="0.00" vlrConcessoes="561" przDecMedConcessoes="2187" sldCarAtiva="355923" />
+          </pre>
+        </pesFisica>
+      </crdLivre>
+    </diario>
+  </referencia>
+</DocTXB>

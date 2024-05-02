@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<DocTXB cnpjInstituicao="09516419" dataBase="2024-04-19" indRemessa="I" nmContato="EDUARDO CHEDID SIMÃ•ES" telContato="">
+<DocTXB cnpjInstituicao="09516419" dataBase="2024-04-19" indRemessa="I" nmContato="EDUARDO CHEDID SIMÕES" telContato="">
   <referencia dataRef="2024-04-15">
     <diario>
       <crdLivre>
         <pesFisica>
-          <pre>
             <crdPesNaoConsignado txMedJuros="206.89" txMedEncFiscais="0.63" txMedEncOperacionais="0.27" vlrConcessoes="23377" przDecMedConcessoes="1228" sldCarAtiva="1770990" />
+          <pre>
             <crdPesNaoConVinComposicao txMedJuros="169.62" txMedEncFiscais="0.06" txMedEncOperacionais="0.00" vlrConcessoes="1037" przDecMedConcessoes="532" sldCarAtiva="55569" />
             <crdPesConTraSetPublico txMedJuros="20.51" txMedEncFiscais="0.60" txMedEncOperacionais="0.00" vlrConcessoes="108" przDecMedConcessoes="1827" sldCarAtiva="9483" />
             <crdPesConApoINSS txMedJuros="21.72" txMedEncFiscais="0.53" txMedEncOperacionais="0.00" vlrConcessoes="1217" przDecMedConcessoes="2196" sldCarAtiva="352892" />

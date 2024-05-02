@@ -5,9 +5,13 @@ import com.picpay.core.exceptions.ValidationException;
 import org.springframework.stereotype.Component;
 
 @Component
-public class CrdLivrePFValidator implements Validator<CrdPes> {
+public class CrdPesValidator implements Validator<CrdPes> {
   @Override
   public void accept(final CrdPes tag) {
+    if (tag.getPre() == null) {
+      throw new ValidationException("A tag pre era esperada antes de uma tag CrdPes. Houve uma falha de hierarquia no arquivo.");
+    }
+
     validateTxMedJuros(tag.getTxMedJuros());
     validateTxMedEncFiscais(tag.getTxMedEncFiscais());
     validateTxMedEncOperacionais(tag.getTxMedEncOperacionais());
